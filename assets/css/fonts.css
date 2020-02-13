@@ -1,0 +1,15 @@
+
+
+/* @font-face */ 
+
+@font-face{
+    font-family: "Roboto";
+    src: '../vendor/fonts/Roboto/Roboto-Regular.ttf';
+}
+
+
+@font-face{
+    font-family: "FontAwesome";
+    src: '../icons/fa-regular-400.ttf';
+}
+
