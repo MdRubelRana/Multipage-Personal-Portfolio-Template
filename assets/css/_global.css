@@ -2,17 +2,17 @@
 
 /* Global Classes */ 
 
-.title-text{
+/* .title-text{
     font: normal bold 50px/ 72px var(--roboto);
 }
 
 .text-uppercase{
     text-transform: uppercase;
-}
+} */
 
 /* Buttons */ 
 
-.button{
+/* .button{
     padding: .8rem 2.2rem;
     font: normal 500 16px/20px var(--roboto);
     position: relative;
@@ -88,4 +88,10 @@ button:hover
     box-shadow: var(--box-shadow);
     z-index: 999;
     transition: background 1s ease;
+} */
+
+
+
+body{
+    background-image: url('../images/bg-body.jpg');
 }
