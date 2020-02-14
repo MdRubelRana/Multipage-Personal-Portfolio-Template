@@ -444,25 +444,25 @@ ul.socialicons.main {
   margin-top: 25px;
 }
 
-.intetst-box i.fa {
+.interest-box i.fa {
   font-size: 36px;
-  color: #fff;
+  color: var(--text-color2);
   text-align: center;
 }
 
-.intetst-icons {
-  color: #fff;
+.interest-icons {
+  color: var(--text-color2);
   text-align: center;
   margin-bottom: 19px;
   margin-left: -33px;
 }
 
-.intetst-icons h5 {
+.interest-icons h5 {
   font-size: 14px;
   letter-spacing: 2px;
   font-weight: normal;
   text-transform: uppercase;
-  color: white;
+  color: var(--text-color2);
 }
 
 .eduction-right {
@@ -1029,6 +1029,108 @@ button#green-color {
   color: var(--text-color4) !important;
 }
 
+
+/* ---------------------------------------------------------------------- */
+/*							5.  CONTACT
+/* ---------------------------------------------------------------------- */
+
+
+#contact{
+  overflow: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+.contact-info,
+.contact-form{
+  float: left;
+  padding: 0 20px;
+}
+
+.contact-info{
+  width: 300px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.contact-form{
+  width: 500px;
+}
+
+.contact-info ul{
+  float: left;
+  border-left: 1px solid var(--primary-color);
+  padding: 10px;
+}
+
+.contact-info ul li{
+  font-size: 16px;
+  line-height: 40px;
+  color: var(--text-color);
+  overflow: hidden;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.main-heading{
+  font-family: 'Oswald', sans-serif;
+  color: var(--primary-color);
+}
+
+
+#map{
+  height: 300px;
+  margin-bottom: 25px;
+  width: 100%;
+  border-bottom: 1px solid var(--border-color4);
+  border-top: 1px solid var(--border-color4);
+}
+
+#map iframe{
+  width: 100%;
+}
+
+
+form .input,
+form textarea{
+  box-shadow: inset 0 5-x 17px -13px var(--text-color4);
+  background: var(--primary-color8);
+  border: 1px solid var(--border-color5);
+  border-radius: 2px;
+  color: var(--text-color);
+  font-size: 12px;
+  height: 30px;
+  outline: none;
+  padding: 7px 10px;
+  resize: none;
+  width: 97%;
+}
+
+
+form textarea{
+  height: 112px;
+  line-height: 18px;
+  margin-bottom: 0;
+  padding-top: 8px;
+}
+
+form label{
+  display: block;
+  color: var(--title-color4);
+  margin-bottom: 8px;
+  font-size: 13px;
+}
+
+.button{
+  color: var(--text-color2);
+  background-color: var(--primary-color);
+  padding: 12px 25px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 30px 0;
+  font-family: 'Oswald', sans-serif;
+}
+
 /* ---------------------------------------------------------------------- */
 /*							5.  FOOTER
 /* ---------------------------------------------------------------------- */
@@ -1037,5 +1139,7 @@ button#green-color {
 }
 
 .copyrights a {
-  font-weight: bold;
+  font-weight: 900;
+  color: var(--primary-color);
 }
+

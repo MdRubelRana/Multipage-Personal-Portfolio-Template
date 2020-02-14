@@ -1,11 +1,11 @@
 /*
     Template Name: _global.css ===> Global CSS variables
 */
-html, body {
+/* html, body {
   margin: 0%;
   box-sizing: border-box;
   width: 100%;
-}
+} */
 
 body {
   background-image: url('../images/bg-body.jpg');
