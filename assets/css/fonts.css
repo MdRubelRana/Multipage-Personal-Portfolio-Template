@@ -1,12 +1,11 @@
-
-
-/* Roboto */ 
-
-@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
-
-/* Montserrat */
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap');
-
-
-/* Oswald */
-@import url('https://fonts.googleapis.com/css?family=Oswald:400,500,600,700&display=swap');
+/*
+    Template Name: fonts.css ===> Google fonts API
+*/
+/* ---------------------------------------------------------------------- */
+/*						      	1.  Roboto Condensed
+/* ---------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+/* ---------------------------------------------------------------------- */
+/*						              	2.  Oswald
+/* ---------------------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css?family=Oswald&display=swap');
